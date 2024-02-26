@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@v2.1.0
       - name: Pinata deploy action step
         id: deploy
-        uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
+        uses: anoukleyris/Workshop-TD-n-2---Decentralised-storage---Anouk-Leyris@main
         with:
           pin-name: 'TESTING (v1.6.3)'
           path: './.github/workflows/site2test'
