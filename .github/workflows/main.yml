@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Deploy to IPFS via Pinata
-        uses: anoukleyris/ipfs-pinata-deploy-action@v1.6.4
+        uses: anoukleyris/action.yml@main
         with:
           pin-name: 'Mon site'
           path: './site' 
