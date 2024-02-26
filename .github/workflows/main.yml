@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Deploy to IPFS via Pinata
-        uses: anoukleyris/action.yml@main
+        uses: anoukleyris/Workshop-TD-n-2---Decentralised-storage---Anouk-Leyris@main
         with:
           pin-name: 'Mon site'
           path: './site' 
