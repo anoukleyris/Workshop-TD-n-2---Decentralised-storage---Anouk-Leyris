@@ -11,7 +11,7 @@ jobs:
         uses: anoukleyris/Workshop-TD-n-2---Decentralised-storage---Anouk-Leyris@main
         with:
           pin-name: 'TESTING (v1.6.3)'
-          path: './.github/workflows/site2test'
+          path: './site'
           pinata-api-key: secrets.PINATA_API_KEY
           pinata-secret-api-key: secrets.PINATA_SECRET_API_KEY
           verbose: true
