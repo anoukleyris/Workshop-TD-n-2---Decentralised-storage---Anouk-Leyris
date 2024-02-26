@@ -1,0 +1,25 @@
+Partie 1 : 
+
+Q1.
+torrent create Chaton.jpeg -o chaton.torrent
+torrent info chaton.torrent
+
+Q2.
+torrent create partition1 -o partition1.torrent
+torrent info partition1.torrent
+
+Q3.
+torrent create "partition1 copy" -o partition1copy.torrent
+torrent info partition1copy.torrent
+
+Partie 2 : 
+
+Q1.
+ipfs add Chaton.jpeg
+
+Q2.
+ipfs add -r partition1
+
+Q3.
+ipfs add -r partition1_copy
+
