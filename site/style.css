@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#wink {
+    font-size: 48px;
+    animation: wink 2s infinite;
+}
+
+@keyframes wink {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(0.1); }
+}
