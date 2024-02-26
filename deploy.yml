@@ -1,7 +1,0 @@
-uses: anoukleyris/ipfs-pinata-deploy-action@v1.6.4
-with:
-  pin-name: 'Mon site'
-  path: './build'
-  pinata-api-key: secrets.PINATA_API_KEY
-  pinata-secret-api-key: secrets.PINATA_SECRET_API_KEY
-  remove-old: false
