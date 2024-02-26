@@ -1,0 +1,7 @@
+uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
+with:
+  pin-name: 'Mon site'
+  path: './build'
+  pinata-api-key: 
+  pinata-secret-api-key: 
+  remove-old: false
